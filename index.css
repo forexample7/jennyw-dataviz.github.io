@@ -42,8 +42,9 @@ body,html {
     display:block;
 }
 #title {
+
     font-size:40px;
-    background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
+    background-image: linear-gradient(to left, #89ffba 0%, #84fff7 100%);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -53,6 +54,8 @@ body,html {
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
     font-family: 'Ubuntu', cursive;
+    filter: drop-shadow(0 0 2px #111);
+    filter: drop-shadow(0 0 6px #111);
 }
 #links {
     margin:40px 0px;
@@ -93,12 +96,12 @@ body,html {
 }
 #portfolio div h1 {
     font-size:40px;
-    background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
+    background-image: linear-gradient(to left, #00F260 0%, #0575E6 100%);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
     background-size:500% 500% !important;
-    -webkit-animation: Gradient 20s ease infinite;
+    -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
@@ -155,6 +158,16 @@ body,html {
 }
 ::placeholder {
     color:#111;
+}
+.container {
+    display: flex; /* Enables the two-column layout */
+    flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+    gap: 20px; /* Adds space between columns */
+    padding-bottom: 30px;
+}
+.column {
+    flex: 1; /* Ensures columns take equal width */
+    min-width: 300px; /*Sets a minimum width for columns */
 }
 .btn_one {
     color:#111;
