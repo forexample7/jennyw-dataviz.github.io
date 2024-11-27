@@ -10,6 +10,13 @@ body,html {
 
 p{
     line-height: 1.5em;
+    font-family: 'Inter', cursive;
+    color: #888;
+    
+}
+h2{
+    filter: drop-shadow(0 0 4px #4df8b3);
+    text-decoration-line: underline;    
 }
 
 #loading {
