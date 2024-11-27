@@ -139,7 +139,7 @@
                     <p>The Great Smoky Mountains National Park and the Grand Canyon National Park both show significant connections to all species categories, with 582 and 683 total species, emphasizing their status as a biodiversity hotspot.</p>
                 </div>
 
-                <div class="project">
+                <div class="project" tag="6">
                     <h2>Species Categories in National Parks</h2>
                     <p>This viz displays the distribution of documented species across five focused species categories (Bird, Mammal, Fish, Retile, and Amphibian). While this default view displays the distribution of these selected species across all states, we can interact with the dropdown to focus on a specific state they are interested in. </p>
                     <div class="flourish-embed flourish-scatter" data-src="visualisation/20457925"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20457925/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
@@ -152,12 +152,74 @@
 
                 </div>
 
+                <div class="project" tag="7-1">
+                    <h2>Species Abundance Per Region</h2>
+                    <p>This stacked bar showcases the distribution of biodiversity abundance across different regions, highlighting counts of various species or categories. </p>
+                    <div class='tableauPlaceholder' id='viz1732672734811' style='position: relative'><noscript><a href='#'><img alt='Species Abundance in National Parks by Region ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpeciesAbundanceinNationalParksbyRegion&#47;abundance&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SpeciesAbundanceinNationalParksbyRegion&#47;abundance' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;SpeciesAbundanceinNationalParksbyRegion&#47;abundance&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1732672734811');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    
+                    <p>This viz showcases not only the number of documented species per region, but also highlights how many species fall under which abundance status. Abundance status ranks from Abundant to Unknown, and these statuses can symbolize different looks into different species. NPS differentiates these definitions between Animals (Birds, Mammals, Amphibians, Insects, Reptiles, Crabs/Lobsters/Shrimps, Slug/Snails, Spiders/Scorpions) and Other (Plants, Chromista, Protozoa, and Fungi), and below shows how NPS explains each status as the following:                    </p>
+                    
+                    <div class="container">
+                        <div class="column1">
+                            <br>
+                            <img src="./image/Graph7-1.png"/>
+                        </div>
+                        <div class="column1">
+                            <h3>&#x1F929; Southeast region displays high volume, but exposes empty volume</h3>
+                            <p>The Southeast region ranks the highest in documented species, but we noticed that a majority of the documented species unfortunately have unknown abundance statuses. While compared with the other regions, this region only stands in third for the most recorded known statuses, falling significantly below the top two regions. </p>
+                            <p>&#x1F44B; If you click on “Insects”, you will see that it engulfs the majority of the unknown species in the Southeast region as it largely reflects the trend we see when “All” is selected as well. We hypothesize that insects may be more difficult to document in comparison to larger species, such as birds and mammals, and this may be the reason behind why this region largely sports unknown status in their documented species.</p>
+                            
+                            <h3>&#x1F929; Pacific West reigns supreme in known status documentation</h3>
+                            <p>On the other end of the spectrum, the region that has the most documented species with known abundance statues is the Pacific West region. Though the Pacific West stands in 3rd place for the number of documented species, the ratio between known statuses vs. unknown statuses is the greatest.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project" tag="7-2">
+                    <h2>Nativeness ratios for each park</h2>
+                    <p>This stacked bar graph hierarchically ranks the distribution of species nativeness across each park. Nativeness refers to whether or not a species is naturally occurring in that specific park, meaning a non-native species exists in that park due to deliberate or accidental human activities.</p>
+                    <div class='tableauPlaceholder' id='viz1732670068322' style='position: relative'><noscript><a href='#'><img alt='Nativeness Proportions of Species in Each National Park ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;NativenessProportionsofSpeciesinEachNationalParkRanked&#47;nativeness-story&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NativenessProportionsofSpeciesinEachNationalParkRanked&#47;nativeness-story' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Na&#47;NativenessProportionsofSpeciesinEachNationalParkRanked&#47;nativeness-story&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1732670068322');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                    
+                    <h3>&#x1F929; Effects of visitation on Hawaii’s ecosystems </h3>
+                    <p>In regards to non-nativeness, the two national parks in Hawaii (Hawaii Volcanoes National Park and Haleakala National Park) are ranked the highest. This proves true as Hawaii experiences high levels of tourism and, according to NPS, the influx of humans on the islands of Hawaii also brings over invasive species that threaten the population of native species, which also explains why the ratio is skewed in this way.</p>
+                    
+                    <h3>&#x1F929; Isolated, but protected, Alaska</h3>
+                    <p>In regards to nativeness, the viz shows that the top 2 parks are both from Alaska, which makes sense as Alaska is fairly isolated in comparison to other national parks located within North America and is on the polar end of the spectrum when it comes to visitation, as shown in our visitation treemap. </p>
+
+                </div>
+
+                <div class="section">
+                    <div class="chapter_title"> Chapter 3 - California Zoomed In </div>
+                    <div class="project" tag="8">
+                        <h2>National Parks in California</h2>
+                        <p>This visualization maps all six national parks in California, showcasing their locations. We can explore more details about each park by hovering over its logo on the map. </p>
+                        <div class="flourish-embed flourish-map" data-src="visualisation/20438841"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20438841/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+                        
+                        <h3>&#x1F929; Guide for the California explorer</h3>
+                        <p>Focusing on a single state provides a clearer understanding of the geographical distribution of California's national parks. Additionally, the visualization offers basic information for each park, including its official website, estimated area size, establishment date, and the most recent visitor statistics from 2023. The map serves as an accessible tool for those we need to quickly obtain essential details and easily navigate to external resources for further exploration.</p>
+                        
+                    </div>
+
+                    <div class="project" tag="9">
+                        <h2>Biodiversity of National Parks in California</h2>
+                        <p>This viz displays the biodiversity of the 7 national parks in California, specifically regarding the spread of 5 species categories (birds, mammals, reptiles, amphibians, and fish). Here, we can see which parks have the most/least documentation on the species that reside in the park, seeing how each park ranks in biodiversity. </p>
+                        <div class="flourish-embed flourish-pictogram" data-src="visualisation/20458030"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20458030/thumbnail" width="100%" alt="pictogram visualization" /></noscript></div>
+                        
+                        <h3>&#x1F929; Birds continue to fly high, while fish swim fast alongside</h3>
+                        <p>Birds are the most well-documented species by a significant margin for most parks across California. While mammals come in second place for most parks, that is not the case for the top 2 biodiverse parks (Channel Islands and Redwood) in which fish come in second. These trends closely follow what we show in a prior visualization, Species Categories in National Parks, in which birds come out as the most documented species across all national parks, while two fish data points stand out as outliers.</p>
+                        
+                    </div>
+
+                    
+
+                </div>
+
                 
             </div>
-            
-
                
-        <div class="section_title">
+        <!-- <div class="section_title">
             <h1>works.</h1>
             <div class="container">
                 <div class="column">
@@ -182,11 +244,8 @@
                 <button class="btn_one">visit project</button>
                 <button class="btn_two">code</button>
             </div>
-            
 
-
-
-        </div>
+        </div> -->
 
         
 
