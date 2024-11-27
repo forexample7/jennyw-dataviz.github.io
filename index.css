@@ -48,19 +48,17 @@ p{
     height: 100px;
 }
 #title {
-    position: static;
     font-size:40px;
-    background-image: linear-gradient(to left, #89ffba 0%, #84fff7 100%);
+    background-image: linear-gradient(to left, #8fffbe 0%, #3ee8ff 100%);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
     background-size:500% 500% !important;
-    -webkit-animation: Gradient 20s ease infinite;
+    -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
     font-family: 'Ubuntu', cursive;
-    /* filter: drop-shadow(0 0 2px #111); */
     filter: drop-shadow(0 0 8px #444);
 }
 #links {
@@ -214,24 +212,28 @@ p{
 .project{
     margin-bottom: 40px;
 }
-.project h3{
+/* .project h3{
     font-style: italic;
 
-}
+} */
 
 .chapter_title {
     color:#fff;
-    padding:10px 20px;
+    padding:10px 40px;
     border-radius:50px;
-    font-size:18px;
+    font-size:28px;
     font-family: 'Ubuntu', cursive;
     font-weight:bold;
     background-image: linear-gradient(to left, #5cc686 0%, #5aa7f4 100%);
     transition:0.4s ease-in-out;
-    margin:10px -10px;
+    margin: -10px;
+    margin-top: 200px;
+    margin-bottom: 160px;
     text-align: center;
     /* width: fit-content; */
+
 }
+
 
 .btn_two {
     color:#fff;
