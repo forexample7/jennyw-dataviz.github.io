@@ -21,6 +21,7 @@ h2{
 }
 
 .section_break{
+    font-size: 18px;
     text-align: center;
     font-style: italic;
     background-image: linear-gradient(to left, #00F260 0%, #0575E6 100%);
