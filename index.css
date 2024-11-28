@@ -108,6 +108,7 @@ h2{
     width:80%;
     padding:2% 10%;
 }
+
 #portfolio div h1 {
     font-size:32px;
     background-image: linear-gradient(to left, #00F260 0%, #0575E6 100%);
@@ -124,9 +125,16 @@ h2{
 .section{
     margin-top: 40px;
     margin-bottom: 60px;
+
 }
+
+/* .section.visible{
+    opacity:1;
+    transform: translateY(0);
+} */
+
 .section_title {
-    margin:4vh 0px !important;
+    margin:5vh 0px !important;
     padding:2vh 0px !important;
 }
 
@@ -181,7 +189,7 @@ h2{
 .container {
     display: flex; /* Enables the two-column layout */
     flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
-    gap: 40px; /* Adds space between columns */
+    column-gap: 40px; /* Adds space between columns */
     padding-bottom: 0px;
 }
 .container img{
@@ -189,11 +197,7 @@ h2{
     height: auto;
     object-fit: contain;
 }
-.column {
-    align-self: start;
-    flex: 1; /* Ensures columns take equal width */
-    min-width: 300px; /*Sets a minimum width for columns */
-}
+
 .column1 {
     align-self: start;
     flex: 1; /* Ensures columns take equal width */
