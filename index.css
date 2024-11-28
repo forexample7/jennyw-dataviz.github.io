@@ -123,9 +123,10 @@ h2{
     font-family: 'Ubuntu', cursive;
 }
 
-.tableau-container{
-    max-height: 100vh;
-    margin-bottom: 20vh;
+.tableau_container{
+    height: 75vh;
+    margin-bottom: 10vh;
+    justify-items: auto;
 }
 .section{
     margin-top: 40px;
