@@ -124,8 +124,8 @@ h2{
 }
 
 .tableau_container{
-    height: 75vh;
-    margin-bottom: 60px;
+    max-height: 75vh;
+    margin-bottom: 40px;
     align-items: center; /* Vertically center child elements */
     overflow: hidden; /* Hide any overflow content */
     position: relative; /* Ensure proper positioning for absolute children */
