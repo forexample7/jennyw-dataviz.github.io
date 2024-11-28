@@ -122,6 +122,11 @@ h2{
     animation: Gradient 20s ease infinite;
     font-family: 'Ubuntu', cursive;
 }
+
+.tableau-container{
+    max-height: 100vh;
+    margin-bottom: 20vh;
+}
 .section{
     margin-top: 40px;
     margin-bottom: 60px;
