@@ -9,6 +9,7 @@ body,html {
 }
 
 p{
+    
     line-height: 1.5em;
     font-family: 'Inter', cursive;
     color: #888;
@@ -17,6 +18,17 @@ p{
 h2{
     filter: drop-shadow(0 0 4px #4df8b3);
     text-decoration-line: underline;    
+}
+
+.section_break{
+    text-align: center;
+    font-style: italic;
+    background-image: linear-gradient(to left, #00F260 0%, #0575E6 100%);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 40vh;
+    margin-bottom: 20vh;
 }
 
 #loading {
@@ -124,7 +136,7 @@ h2{
 }
 
 .tableau_container{
-    max-height: 75vh;
+    max-height: 80vh;
     margin-bottom: 40px;
     align-items: center; /* Vertically center child elements */
     overflow: hidden; /* Hide any overflow content */
