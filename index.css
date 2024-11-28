@@ -125,8 +125,10 @@ h2{
 
 .tableau_container{
     height: 75vh;
-    margin-bottom: 100px;
-    justify-items: auto;
+    margin-bottom: 60px;
+    align-items: center; /* Vertically center child elements */
+    overflow: hidden; /* Hide any overflow content */
+    position: relative; /* Ensure proper positioning for absolute children */
 }
 .section{
     margin-top: 40px;
