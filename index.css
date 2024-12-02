@@ -19,6 +19,13 @@ h2{
     filter: drop-shadow(0 0 4px #4df8b3);
     text-decoration-line: underline;    
 }
+figcaption{
+    font-weight: normal;
+    font-family: 'Inter', cursive;
+}
+img{
+    width:100%;
+}
 
 .section_break{
     font-size: 18px;
@@ -30,6 +37,8 @@ h2{
     -webkit-text-fill-color: transparent;
     margin-top: 40vh;
     margin-bottom: 20vh;
+    /* width: 80%; */
+    align-self: center;
 }
 
 #loading {
@@ -137,12 +146,20 @@ h2{
 }
 
 .tableau_container{
+        
     max-height: 80vh;
     margin-bottom: 40px;
-    align-items: center; /* Vertically center child elements */
-    overflow: hidden; /* Hide any overflow content */
-    position: relative; /* Ensure proper positioning for absolute children */
+    align-items: center; 
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center; 
+    display: -ms-inline-flexbox;
+    position: relative; 
+    
 }
+
+
+
 .section{
     margin-top: 40px;
     margin-bottom: 60px;
