@@ -148,13 +148,14 @@ img{
         
     max-height: 80vh;
     margin-bottom: 40px;
-    align-items: center; 
-    overflow: hidden; 
     justify-content: center;
-    align-items: center; 
-    display: -ms-inline-flexbox;
-    position: relative; 
-    
+    align-items: auto; 
+    overflow: hidden; 
+    padding: auto;
+}
+
+.tableauPlaceholder{
+    height: 100%;
 }
 
 
