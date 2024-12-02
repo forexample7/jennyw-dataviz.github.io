@@ -37,8 +37,7 @@ img{
     -webkit-text-fill-color: transparent;
     margin-top: 40vh;
     margin-bottom: 20vh;
-    /* width: 80%; */
-    align-self: center;
+    padding: 0% 10%;
 }
 
 #loading {
