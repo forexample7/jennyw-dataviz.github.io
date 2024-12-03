@@ -146,16 +146,17 @@ img{
 
 .tableau_container{
         
-    max-height: 80vh;
+    max-height: 800px;
     margin-bottom: 40px;
     justify-content: center;
     align-items: auto; 
     overflow: hidden; 
-    padding: auto;
+    padding-bottom: 0;
 }
 
 .tableauPlaceholder{
     height: 100%;
+    
 }
 
 
