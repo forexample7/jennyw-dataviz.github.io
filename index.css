@@ -144,7 +144,7 @@ img{
     font-family: 'Ubuntu', cursive;
 }
 
-.tableau_container{
+/* .tableau_container{
         
     max-height: 800px;
     margin-bottom: 40px;
@@ -152,7 +152,7 @@ img{
     align-items: auto; 
     overflow: hidden; 
     padding-bottom: 0;
-}
+} */
 
 .tableauPlaceholder{
     height: 100%;
